@@ -8,7 +8,7 @@ export default function Layout({
   children: ReactNode;
 }>) {
   return (
-    <main className="flex flex-col relative">
+    <main className="flex flex-col min-h-dvh relative">
       <Navbar />
       <section className="flex-1 mt-20">{children}</section>
       <Footer />

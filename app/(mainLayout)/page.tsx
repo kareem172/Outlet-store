@@ -4,7 +4,6 @@ import { ChevronRight } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import ProductCard from "@/components/productCard";
 
 export default function Home() {
   return (
@@ -93,30 +92,7 @@ function NewArrival() {
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            {
-              name: "Casual Linen Shirt",
-              price: "$49.99",
-              image: "/placeholder.svg?height=600&width=400",
-            },
-            {
-              name: "Summer Dress",
-              price: "$59.99",
-              image: "/placeholder.svg?height=600&width=400",
-            },
-            {
-              name: "Classic Denim Jacket",
-              price: "$89.99",
-              image: "/placeholder.svg?height=600&width=400",
-            },
-            {
-              name: "Cotton T-Shirt",
-              price: "$29.99",
-              image: "/placeholder.svg?height=600&width=400",
-            },
-          ].map((product, index) => (
-            <ProductCard key={index} />
-          ))}
+          {/* products */}
         </div>
         <div className="mt-10 flex justify-center">
           <Button variant="outline" size="lg">
