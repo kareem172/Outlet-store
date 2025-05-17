@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import { ReactNode } from "react";
 
@@ -7,9 +8,10 @@ export default function Layout({
   children: ReactNode;
 }>) {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col relative">
       <Navbar />
-      <section className="flex-1">{children}</section>
+      <section className="flex-1 mt-20">{children}</section>
+      <Footer />
     </main>
   );
 }

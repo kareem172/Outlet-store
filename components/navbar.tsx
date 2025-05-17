@@ -16,7 +16,7 @@ import { Menu } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <nav className="bg-background-100 mask-b-from-80%">
+    <nav className=" absolute top-0 z-50 w-full">
       <div className="container flex items-baseline gap-10">
         <Link href="/">
           <h1 className="text-3xl font-extrabold text-primary">Logo</h1>
