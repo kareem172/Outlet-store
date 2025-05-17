@@ -1,0 +1,757 @@
+[
+  {
+    "id": 1,
+    "name": "CAMPUS FOOTPATROL SHOES",
+    "price": 50,
+    "images": [
+      "/images/products/1.avif",
+      "/images/products/2.avif",
+      "/images/products/3.avif"
+    ],
+    "gender": "uni",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Shoes",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "colors": [
+      "gray",
+      "black",
+      "orange"
+    ],
+    "rating": 4,
+    "brand": "Adidas"
+  },
+  {
+    "id": 2,
+    "name": "‘ONE PIECE’ CHARACTERS T-SHIRT",
+    "price": 20,
+    "images": [
+      "/images/products/‘ONE PIECE’ CHARACTERS T-SHIRT1.jpg",
+      "/images/products/‘ONE PIECE’ CHARACTERS T-SHIRT2.jpg",
+      "/images/products/‘ONE PIECE’ CHARACTERS T-SHIRT3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "T-shirt",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "White",
+      "black",
+      "orange"
+    ],
+    "rating": 5,
+    "brand": "Pull&Bear"
+  },
+  {
+    "id": 3,
+    "name": "AJAX AMSTERDAM OG TRACK JACKET",
+    "price": 70,
+    "images": [
+      "/images/products/AJAX AMSTERDAM OG TRACK JACKET1.avif",
+      "/images/products/AJAX AMSTERDAM OG TRACK JACKET2.avif",
+      "/images/products/AJAX AMSTERDAM OG TRACK JACKET3.avif"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Jacket",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "gray",
+      "black"
+    ],
+    "rating": 3,
+    "brand": "Adidas"
+  },
+  {
+    "id": 4,
+    "name": "BASIC LOOSE FIT DENIM BERMUDA SHORTS",
+    "price": 15,
+    "images": [
+      "/images/products/BASIC LOOSE FIT DENIM BERMUDA SHORTS1.jpg",
+      "/images/products/BASIC LOOSE FIT DENIM BERMUDA SHORTS2.jpg",
+      "/images/products/BASIC LOOSE FIT DENIM BERMUDA SHORTS3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Trouser",
+    "sizes": [
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48
+    ],
+    "colors": [
+      "blue",
+      "black"
+    ],
+    "rating": 4,
+    "brand": "Bershka"
+  },
+  {
+    "id": 5,
+    "name": "BASIC SHORT SLEEVE LINEN BLEND SHIRT",
+    "price": 25,
+    "images": [
+      "/images/products/BASIC SHORT SLEEVE LINEN BLEND SHIRT1.jpg",
+      "/images/products/BASIC SHORT SLEEVE LINEN BLEND SHIRT2.jpg",
+      "/images/products/BASIC SHORT SLEEVE LINEN BLEND SHIRT3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Shirt",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "white"
+    ],
+    "rating": 5,
+    "brand": "Pull&Bear"
+  },
+  {
+    "id": 6,
+    "name": "BASIC STANDARD FIT JEANS",
+    "price": 30,
+    "images": [
+      "/images/products/BASIC STANDARD FIT JEANS1.jpg",
+      "/images/products/BASIC STANDARD FIT JEANS2.jpg",
+      "/images/products/BASIC STANDARD FIT JEANS3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Trouser",
+    "sizes": [
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48
+    ],
+    "colors": [
+      "blue",
+      "black",
+      "white"
+    ],
+    "rating": 2,
+    "brand": "Bershka"
+  },
+  {
+    "id": 7,
+    "name": "CARGO BERMUDA SHORTS",
+    "price": 35,
+    "images": [
+      "/images/products/CARGO BERMUDA SHORTS1.jpg",
+      "/images/products/CARGO BERMUDA SHORTS2.jpg",
+      "/images/products/CARGO BERMUDA SHORTS3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Trouser",
+    "sizes": [
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48
+    ],
+    "colors": [
+      "green",
+      "black",
+      "blue"
+    ],
+    "rating": 4,
+    "brand": "Zara"
+  },
+  {
+    "id": 8,
+    "name": "CITY ESCAPE AEROREADY WARMING TRACK TOP",
+    "price": 60,
+    "images": [
+      "/images/products/CITY ESCAPE AEROREADY WARMING TRACK TOP1.avif",
+      "/images/products/CITY ESCAPE AEROREADY WARMING TRACK TOP2.avif",
+      "/images/products/CITY ESCAPE AEROREADY WARMING TRACK TOP3.avif"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Jacket",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "black"
+    ],
+    "rating": 4,
+    "brand": "Adidas"
+  },
+  {
+    "id": 9,
+    "name": "DAME 9 TEE",
+    "price": 10,
+    "images": [
+      "/images/products/DAME 9 TEE1.avif",
+      "/images/products/DAME 9 TEE2.avif",
+      "/images/products/DAME 9 TEE3.avif"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "T-shirt",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "pink",
+      "black",
+      "yellow"
+    ],
+    "rating": 4,
+    "brand": "Adidas"
+  },
+  {
+    "id": 10,
+    "name": "DISNEY PRINCESS T-SHIRT1",
+    "price": 20,
+    "images": [
+      "/images/products/DISNEY PRINCESS T-SHIRT1.jpg",
+      "/images/products/DISNEY PRINCESS T-SHIRT2.jpg",
+      "/images/products/DISNEY PRINCESS T-SHIRT3.jpg"
+    ],
+    "gender": "female",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "T-shirt",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "pink",
+      "black",
+      "orange"
+    ],
+    "rating": 3,
+    "brand": "Bershka"
+  },
+  {
+    "id": 11,
+    "name": "NARUTO PRINT T-SHIRT",
+    "price": 20,
+    "images": [
+      "/images/products/NARUTO PRINT T-SHIRT1.jpg",
+      "/images/products/NARUTO PRINT T-SHIRT2.jpg",
+      "/images/products/NARUTO PRINT T-SHIRT3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "T-shirt",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "purple",
+      "black",
+      "white"
+    ],
+    "rating": 4,
+    "brand": "Pull&Bear"
+  },
+  {
+    "id": 12,
+    "name": "OVERSIZE HOODIE GRAY",
+    "price": 30,
+    "images": [
+      "/images/products/OVERSIZE HOODIE gray1.jpg",
+      "/images/products/OVERSIZE HOODIE gray2.jpg",
+      "/images/products/OVERSIZE HOODIE gray3.jpg"
+    ],
+    "gender": "female",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Hoodie",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "gray"
+    ],
+    "rating": 4,
+    "brand": "Zara"
+  },
+  {
+    "id": 13,
+    "name": "OVERSIZE HOODIE",
+    "price": 30,
+    "images": [
+      "/images/products/OVERSIZE HOODIE1.jpg",
+      "/images/products/OVERSIZE HOODIE2.jpg",
+      "/images/products/OVERSIZE HOODIE3.jpg"
+    ],
+    "gender": "female",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Hoodie",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "colors": [
+      "black",
+      "white"
+    ],
+    "rating": 5,
+    "brand": "Zara"
+  },
+  {
+    "id": 14,
+    "name": "PUSH UP MID-RISE JEANS",
+    "price": 40,
+    "images": [
+      "/images/products/PUSH UP MID-RISE JEANS1.jpg",
+      "/images/products/PUSH UP MID-RISE JEANS2.jpg",
+      "/images/products/PUSH UP MID-RISE JEANS3.jpg"
+    ],
+    "gender": "female",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Trouser",
+    "sizes": [
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44
+    ],
+    "colors": [
+      "blue",
+      "black",
+      "white"
+    ],
+    "rating": 4,
+    "brand": "Pull&Bear"
+  },
+  {
+    "id": 15,
+    "name": "SASUKE UCHIHA T-SHIRT",
+    "price": 20,
+    "images": [
+      "/images/products/SASUKE UCHIHA T-SHIRT1.jpg",
+      "/images/products/SASUKE UCHIHA T-SHIRT2.jpg",
+      "/images/products/SASUKE UCHIHA T-SHIRT3.jpg"
+    ],
+    "gender": "female",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "T-shirt",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "green",
+      "black",
+      "white"
+    ],
+    "rating": 5,
+    "brand": "Defacto"
+  },
+  {
+    "id": 16,
+    "name": "SOFT-KNIT CARGO JOGGING TROUSERS",
+    "price": 70,
+    "images": [
+      "/images/products/SOFT-KNIT CARGO JOGGING TROUSERS1.jpg",
+      "/images/products/SOFT-KNIT CARGO JOGGING TROUSERS2.jpg",
+      "/images/products/SOFT-KNIT CARGO JOGGING TROUSERS3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Trouser",
+    "sizes": [
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48
+    ],
+    "colors": [
+      "black",
+      "blue"
+    ],
+    "rating": 5,
+    "brand": "Zara"
+  },
+  {
+    "id": 17,
+    "name": "STAND-UP COLLAR SHIRT",
+    "price": 30,
+    "images": [
+      "/images/products/STAND-UP COLLAR SHIRT1.jpg",
+      "/images/products/STAND-UP COLLAR SHIRT2.jpg",
+      "/images/products/STAND-UP COLLAR SHIRT3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Shirt",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "gray",
+      "green",
+      "black"
+    ],
+    "rating": 4,
+    "brand": "Bershka"
+  },
+  {
+    "id": 18,
+    "name": "POLO SHIRT WITH MERCERISED FINISH",
+    "price": 30,
+    "images": [
+      "/images/products/zaraPolo1.jpg",
+      "/images/products/zaraPolo2.jpg",
+      "/images/products/zaraPolo3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "T-shirt",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "black",
+      "green",
+      "yellow"
+    ],
+    "rating": 4,
+    "brand": "Zara"
+  },
+  {
+    "id": 19,
+    "name": "POPLIN SHIRT",
+    "price": 40,
+    "images": [
+      "/images/products/zaraShirt1.jpg",
+      "/images/products/zaraShirt2.jpg",
+      "/images/products/zaraShirt3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Shirt",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "white",
+      "green",
+      "gray"
+    ],
+    "rating": 5,
+    "brand": "Zara"
+  },
+  {
+    "id": 20,
+    "name": "Boxy fit short sleeve print rhinestone T-shirt",
+    "price": 25,
+    "images": [
+      "/images/products/Boxy fit short sleeve print rhinestone T-shirt1.jpg",
+      "/images/products/Boxy fit short sleeve print rhinestone T-shirt2.jpg",
+      "/images/products/Boxy fit short sleeve print rhinestone T-shirt3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "T-shirt",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "Yellow",
+      "green",
+      "gray"
+    ],
+    "rating": 4,
+    "brand": "Bershka"
+  },
+  {
+    "id": 21,
+    "name": "Carrot fit jeans",
+    "price": 50,
+    "images": [
+      "/images/products/Carrot fit jeans1.jpg",
+      "/images/products/Carrot fit jeans2.jpg",
+      "/images/products/Carrot fit jeans3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Trouser",
+    "sizes": [
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48
+    ],
+    "colors": [
+      "blue",
+      "light-blue",
+      "black"
+    ],
+    "rating": 3,
+    "brand": "Pull&Bear"
+  },
+  {
+    "id": 22,
+    "name": "Flared jeans",
+    "price": 30,
+    "images": [
+      "/images/products/Flared jeans1.jpg",
+      "/images/products/Flared jeans2.jpg",
+      "/images/products/Flared jeans3.jpg"
+    ],
+    "gender": "female",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Trouser",
+    "sizes": [
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44
+    ],
+    "colors": [
+      "white",
+      "green",
+      "gray"
+    ],
+    "rating": 4,
+    "brand": "Pull&Bear"
+  },
+  {
+    "id": 23,
+    "name": "Jogger jeans",
+    "price": 30,
+    "images": [
+      "/images/products/Jogger jeans1.jpg",
+      "/images/products/Jogger jeans2.jpg",
+      "/images/products/Jogger jeans3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Trouser",
+    "sizes": [
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44
+    ],
+    "colors": [
+      "black",
+      "green",
+      "gray"
+    ],
+    "rating": 2,
+    "brand": "Defacto"
+  },
+  {
+    "id": 24,
+    "name": "Lightweight puffer jacket",
+    "price": 70,
+    "images": [
+      "/images/products/Lightweight puffer jacket1.jpg",
+      "/images/products/Lightweight puffer jacket2.jpg",
+      "/images/products/Lightweight puffer jacket3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Jacket",
+    "sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "colors": [
+      "white",
+      "green",
+      "gray"
+    ],
+    "rating": 5,
+    "brand": "Jack&Jones"
+  },
+  {
+    "id": 25,
+    "name": "Men's contrast mesh trainers",
+    "price": 90,
+    "images": [
+      "/images/products/Men's contrast mesh trainers1.jpg",
+      "/images/products/Men's contrast mesh trainers2.jpg",
+      "/images/products/Men's contrast mesh trainers3.jpg"
+    ],
+    "gender": "uni",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Shoes",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "colors": [
+      "gray"
+    ],
+    "rating": 5,
+    "brand": "Zara"
+  },
+  {
+    "id": 26,
+    "name": "Ripped wide-leg 90s jeans",
+    "price": 40,
+    "images": [
+      "/images/products/Ripped wide-leg 90s jeans1.jpg",
+      "/images/products/Ripped wide-leg 90s jeans2.jpg",
+      "/images/products/Ripped wide-leg 90s jeans3.jpg"
+    ],
+    "gender": "female",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Trouser",
+    "sizes": [
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44
+    ],
+    "colors": [
+      "blue",
+      "light-blue",
+      "black"
+    ],
+    "rating": 4,
+    "brand": "Defacto"
+  },
+  {
+    "id": 27,
+    "name": "Vintage jeans",
+    "price": 30,
+    "images": [
+      "/images/products/Vintage jeans1.jpg",
+      "/images/products/Vintage jeans2.jpg",
+      "/images/products/Vintage jeans3.jpg"
+    ],
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
+    "category": "Trouser",
+    "sizes": [
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48
+    ],
+    "colors": [
+      "light-blue",
+      "blue",
+      "navy"
+    ],
+    "rating": 5,
+    "brand": "Zara"
+  }
+]
