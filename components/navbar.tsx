@@ -16,14 +16,16 @@ import { Menu } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <nav className="container flex items-baseline gap-10">
-      <Link href="/">
-        <h1 className="text-3xl font-extrabold text-primary">Logo</h1>
-      </Link>
-      <div className={"flex items-baseLine gap-3 flex-1 justify-end"}>
-        <NavbarContent className="hidden md:flex" />
-        <NavActions className="hidden md:flex" />
-        <MobileNavbar />
+    <nav className="bg-background-100 mask-b-from-80%">
+      <div className="container flex items-baseline gap-10">
+        <Link href="/">
+          <h1 className="text-3xl font-extrabold text-primary">Logo</h1>
+        </Link>
+        <div className={"flex items-baseLine gap-3 flex-1 justify-end"}>
+          <NavbarContent className="hidden md:flex" />
+          <NavActions className="hidden md:flex" />
+          <MobileNavbar />
+        </div>
       </div>
     </nav>
   );

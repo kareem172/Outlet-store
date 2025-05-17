@@ -5,6 +5,8 @@
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-100: var(--background-100);
+  --color-background-200: var(--background-200);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -46,6 +48,8 @@
 @layer base {
   :root {
     --background: hsl(220 15% 95%);
+    --background-100: hsl(220 15% 85%);
+    --background-200: hsl(220 15% 75%);
     --foreground: hsl(210 10% 20%);
     --card: hsl(220 15% 95%);
     --card-foreground: hsl(210 10% 20%);
@@ -83,6 +87,8 @@
 
   .dark {
     --background: hsl(220 15% 10%);
+    --background-100: hsl(220 15% 15%);
+    --background-200: hsl(220 15% 20%);
     --foreground: hsl(204 50% 90%);
     --card: hsl(220 15% 10%);
     --card-foreground: hsl(204 50% 90%);
