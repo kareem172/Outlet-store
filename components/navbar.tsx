@@ -45,6 +45,9 @@ async function NavbarContent({ className }: { className?: string }) {
       )}
     >
       <li>
+        <Link href={"/"}>Home</Link>
+      </li>
+      <li>
         <Link href={"/products"}>Products</Link>
       </li>
       <li>

@@ -1,32 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "CAMPUS FOOTPATROL SHOES",
-    "price": 50,
-    "images": [
-      "/images/products/1.avif",
-      "/images/products/2.avif",
-      "/images/products/3.avif"
-    ],
-    "gender": "uni",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id justo pharetra, commodo nibh a, volutpat arcu. Nulla mi est, tempor quis tincidunt vitae, hendrerit ac arcu. Proin eget metus sit amet lacus ultricies rhoncus ac at elit. Suspendisse id.",
-    "category": "Shoes",
-    "sizes": [
-      41,
-      42,
-      43,
-      44,
-      45
-    ],
-    "colors": [
-      "gray",
-      "black",
-      "orange"
-    ],
-    "rating": 4,
-    "brand": "Adidas"
-  },
-  {
     "id": 2,
     "name": "‘ONE PIECE’ CHARACTERS T-SHIRT",
     "price": 20,
