@@ -48,9 +48,6 @@ async function NavbarContent({ className }: { className?: string }) {
         <Link href={"/products"}>Products</Link>
       </li>
       <li>
-        <Link href={"/contact"}>Contact us</Link>
-      </li>
-      <li>
         <Link href={"/about"}>About us</Link>
       </li>
       {session && (
