@@ -38,7 +38,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Suspense fallback={<Loading />}>{children}</Suspense>
-          <Toaster />
+          <Toaster richColors />
         </ThemeProvider>
       </body>
     </html>
