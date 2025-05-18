@@ -64,7 +64,7 @@ async function NavbarContent({ className }: { className?: string }) {
 async function NavActions({ className }: { className?: string }) {
   const session = await auth();
   return (
-    <div className={cn("flex items-center gap-3", className)}>
+    <div className={cn("flex text-foreground items-center gap-3", className)}>
       <ThemeToggler />
       {session ? <Button variant={"outline"} onClick={logout}>Logout</Button> : <GoogleButton />}
     </div>
