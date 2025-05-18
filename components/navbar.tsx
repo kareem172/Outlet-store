@@ -22,7 +22,7 @@ export default function Navbar() {
     <nav className=" absolute top-0 z-50 w-full">
       <div className="container flex items-baseline gap-10">
         <Link href="/">
-          <h1 className="text-3xl font-extrabold text-primary">Logo</h1>
+          <h1 className="text-3xl font-extrabold text-primary">Outlet</h1>
         </Link>
         <div className={"flex items-baseLine gap-3 flex-1 justify-end"}>
           <NavbarContent className="hidden md:flex" />
@@ -66,7 +66,13 @@ async function NavActions({ className }: { className?: string }) {
   return (
     <div className={cn("flex text-foreground items-center gap-3", className)}>
       <ThemeToggler />
-      {session ? <Button variant={"outline"} onClick={logout}>Logout</Button> : <GoogleButton />}
+      {session ? (
+        <Button variant={"outline"} onClick={logout}>
+          Logout
+        </Button>
+      ) : (
+        <GoogleButton />
+      )}
     </div>
   );
 }
@@ -81,7 +87,7 @@ function MobileNavbar() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle className="text-3xl font-black ">Logo</SheetTitle>
+          <SheetTitle className="text-3xl font-black ">Outlet</SheetTitle>
         </SheetHeader>
         <NavbarContent />
         <SheetFooter>
