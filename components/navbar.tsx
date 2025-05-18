@@ -15,6 +15,7 @@ import {
 import { Menu } from "lucide-react";
 import GoogleButton from "./googleButton";
 import { auth } from "@/auth";
+import { logout } from "@/actions/auth";
 
 export default function Navbar() {
   return (
@@ -65,7 +66,7 @@ async function NavActions({ className }: { className?: string }) {
   return (
     <div className={cn("flex items-center gap-3", className)}>
       <ThemeToggler />
-      {session ? <Button variant={"outline"}>Logout</Button> : <GoogleButton />}
+      {session ? <Button variant={"outline"} onClick={logout}>Logout</Button> : <GoogleButton />}
     </div>
   );
 }
