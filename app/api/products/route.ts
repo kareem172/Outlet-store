@@ -7,9 +7,10 @@ export function GET(req: NextRequest) {
   const offset = page ? (Number(page) - 1) * pageSize : 0;
   const category = searchParams.get("category");
   const search = searchParams.get("search");
+  console.log("category", category);
   const filteredProducts = products
     .filter((product) => {
-      if (category && product.category !== category) return false;
+      if (category && product.gender !== category) return false;
       if (search && !product.name.toLowerCase().includes(search.toLowerCase()))
         return false;
       return true;

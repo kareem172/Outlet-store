@@ -8,7 +8,7 @@ import { Product } from "@/types";
 export default function ProductCard({ product }: { product: Product }) {
   return (
     <Link
-      href={"/product/" + product.id}
+      href={"/products/" + product.id}
       className="pt-40 relative rounded-xl overflow-clip isolate group"
     >
       <Image src={product.images[0]} alt="name" fill className="object-cover" />
