@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import GoogleButton from "./googleButton";
+import { auth } from "@/auth";
 
 export default function Navbar() {
   return (
@@ -32,7 +33,9 @@ export default function Navbar() {
   );
 }
 
-function NavbarContent({ className }: { className?: string }) {
+async function NavbarContent({ className }: { className?: string }) {
+  const session = await auth();
+
   return (
     <ul
       className={cn(
@@ -49,14 +52,20 @@ function NavbarContent({ className }: { className?: string }) {
       <li>
         <Link href={"/about"}>About us</Link>
       </li>
+      {session && (
+        <li>
+          <Link href={"/dashboard"}>Dashboard</Link>
+        </li>
+      )}
     </ul>
   );
 }
-function NavActions({ className }: { className?: string }) {
+async function NavActions({ className }: { className?: string }) {
+  const session = await auth();
   return (
     <div className={cn("flex items-center gap-3", className)}>
       <ThemeToggler />
-      <GoogleButton />
+      {session ? <Button variant={"outline"}>Logout</Button> : <GoogleButton />}
     </div>
   );
 }
