@@ -13,6 +13,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
+import GoogleButton from "./googleButton";
 
 export default function Navbar() {
   return (
@@ -55,7 +56,7 @@ function NavActions({ className }: { className?: string }) {
   return (
     <div className={cn("flex items-center gap-3", className)}>
       <ThemeToggler />
-      <Button>Register</Button>
+      <GoogleButton />
     </div>
   );
 }
