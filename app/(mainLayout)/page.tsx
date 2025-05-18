@@ -11,7 +11,6 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <ShopByCategory />
-        <NewArrival />
         <Newsletter />
       </main>
     </div>
@@ -73,31 +72,6 @@ function Newsletter() {
           <p className="text-xs text-muted-foreground text-center">
             By subscribing you agree to our Terms of Service and Privacy Policy.
           </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function NewArrival() {
-  return (
-    <section className="py-12 md:py-16 lg:py-20 bg-background-100">
-      <div className="container">
-        <div className="flex flex-col items-center justify-center text-center mb-10">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            New Arrivals
-          </h2>
-          <p className="mt-4 text-muted-foreground md:text-lg max-w-[700px]">
-            The latest additions to our collection
-          </p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {/* products */}
-        </div>
-        <div className="mt-10 flex justify-center">
-          <Button variant="outline" size="lg">
-            View All Products
-          </Button>
         </div>
       </div>
     </section>
