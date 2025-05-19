@@ -42,7 +42,7 @@ export default async function Page({ params }: { params: { id: string } }) {
             {product.sizes.map((size, index) => (
               <span
                 key={index}
-                className={`text-sm rounded bg-background-200 p-2 aspect-square h-full flex justify-center items-center`}
+                className={`text-sm rounded bg-background-200 p-2 size-8 aspect-square h-full flex justify-center items-center`}
               >
                 {size}
               </span>
